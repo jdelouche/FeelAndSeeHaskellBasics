@@ -1,1 +1,2 @@
 # Feel And See Haskell Basics
+This presentation is inspired by Bartosz Milewski and Alexander Grothendieck for who seeing and understanding is the same thing. I am trying to develop a very basic feeling of what Haskell has to show to every programmer.  Apart basic functions, lambda constructs, or schematics, I am using a very terse expression on purpose, because each concept has already a presentation on internet, just follow the links. Here, the path is as important as the purpose.
