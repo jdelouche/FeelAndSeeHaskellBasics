@@ -1,10 +1,10 @@
-Message-ID: <608583185.134.1545138283734.JavaMail.ASNPRAS83$@asnpras83>
+Message-ID: <1124988337.239.1545219901600.JavaMail.ASNPRAS83$@asnpras83>
 Subject: Exported From Confluence
 MIME-Version: 1.0
 Content-Type: multipart/related; 
-	boundary="----=_Part_133_1783604089.1545138283734"
+	boundary="----=_Part_238_1547649351.1545219901600"
 
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: text/html; charset=UTF-8
 Content-Transfer-Encoding: quoted-printable
 Content-Location: file:///C:/exported.html
@@ -242,18 +242,18 @@ wiki.haskell.org/Anonymous_function" class=3D"external-link" rel=3D"nofollo=
 w">lambda constructs</a>, or schematics, I am using a very terse expression=
  on purpose, because each concept has already a presentation on internet, j=
 ust follow the links. Here, the path is as important as the purpose.</p>
-<h2 id=3D"FeelandSeeHaskellBasics-Read=E2=80=93Eval=E2=80=93PrintLoop"><a h=
-ref=3D"https://wiki.haskell.org/GHC" class=3D"external-link" rel=3D"nofollo=
-w" style=3D"font-weight: bold;">Read=E2=80=93Eval=E2=80=93Print Loop</a></h=
+<h2 id=3D"FeelandSeeHaskellBasics-Read=E2=80=93Eval=E2=80=93PrintLoop"><a r=
+el=3D"nofollow" style=3D"font-weight: bold;" href=3D"https://wiki.haskell.o=
+rg/GHC" class=3D"external-link">Read=E2=80=93Eval=E2=80=93Print Loop</a></h=
 2>
 <p><span style=3D"letter-spacing: 0.0px;">On Windows :&nbsp;</span><a style=
 =3D"letter-spacing: 0.0px;" href=3D"https://www.haskell.org/platform/window=
 s.html" class=3D"external-link" rel=3D"nofollow">https://www.haskell.org/pl=
 atform/windows.html</a></p>
 <p>It is better to follow the script with ghci.</p>
-<h2 id=3D"FeelandSeeHaskellBasics-Foldr/Foldl(onlists)"><a rel=3D"nofollow"=
- href=3D"https://en.wikipedia.org/wiki/Fold_(higher-order_function)" class=
-=3D"external-link">Foldr/Foldl</a>&nbsp;(on lists)</h2>
+<h2 id=3D"FeelandSeeHaskellBasics-Foldr/Foldl(onlists)"><a href=3D"https://=
+en.wikipedia.org/wiki/Fold_(higher-order_function)" class=3D"external-link"=
+ rel=3D"nofollow">Foldr/Foldl</a>&nbsp;(on lists)</h2>
 <h3 id=3D"FeelandSeeHaskellBasics-Reducingalist,forexampleareductionofthesu=
 moftheelementsusingfoldr.">Reducing a list, for example a reduction of the =
 sum of the elements using foldr.</h3>
@@ -293,11 +293,11 @@ unction on a list</h3>
 de&gt; jpmap (+1) [1..10]<br>[2,3,4,5,6,7,8,9,10,11]<br>Prelude&gt;</pre>
 <p>Finally jmap could be a usefull function, taking a function as a first a=
 rgument, why not ?</p>
-<h3 id=3D"FeelandSeeHaskellBasics-FunctorialmappingfromPrelude"><a href=3D"=
-https://bartoszmilewski.com/2015/01/20/functors/" rel=3D"nofollow" class=3D=
-"external-link">Functorial</a>&nbsp;mapping from&nbsp;<a href=3D"http://hac=
-kage.haskell.org/package/base-4.12.0.0/docs/Prelude.html" class=3D"external=
--link" rel=3D"nofollow">Prelude</a></h3>
+<h3 id=3D"FeelandSeeHaskellBasics-FunctorialmappingfromPrelude"><a rel=3D"n=
+ofollow" href=3D"https://bartoszmilewski.com/2015/01/20/functors/" class=3D=
+"external-link">Functorial</a>&nbsp;mapping from&nbsp;<a class=3D"external-=
+link" href=3D"http://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude=
+.html" rel=3D"nofollow">Prelude</a></h3>
 <pre>Prelude&gt; fmap (+1) [1..10]</pre>
 <pre>[2,3,4,5,6,7,8,9,10,11]<br>Prelude&gt;</pre>
 <p>It seems, after all, to be a pretty big concept.</p>
@@ -331,10 +331,10 @@ dl (\y _ -&gt; y+1) 0 [11..21]<br>11<br>Prelude&gt;</pre>
 <pre>Prelude&gt; foldr (\x y -&gt; y++[x]) [] [11..21]<br>[21,20,19,18,17,1=
 6,15,14,13,12,11]<br>Prelude&gt;</pre>
 <p>Once again the reverse function.</p>
-<h3 id=3D"FeelandSeeHaskellBasics-Compositionoffunction"><a rel=3D"nofollow=
-" class=3D"external-link" href=3D"http://lyah.haskell.fr/fonctions-d-ordre-=
-superieur">Composition</a>&nbsp;of function</h3>
-<p> <map id=3D"gliffy-map-35160124-7677" name=3D"gliffy-map-35160124-7677">=
+<h3 id=3D"FeelandSeeHaskellBasics-Compositionoffunction"><a class=3D"extern=
+al-link" href=3D"http://lyah.haskell.fr/fonctions-d-ordre-superieur" rel=3D=
+"nofollow">Composition</a>&nbsp;of function</h3>
+<p> <map id=3D"gliffy-map-35160124-4710" name=3D"gliffy-map-35160124-4710">=
 </map> </p>
 <table width=3D"100%" class=3D"gliffy-macro-table">=20
 <tbody>
@@ -346,7 +346,7 @@ superieur">Composition</a>&nbsp;of function</h3>
 <tbody>
 <tr>=20
 <td> <img style=3D"border: none; width: 608px;" usemap=3D"#gliffy-map-35160=
-124-7677" src=3D"26271a1862e0148fe6674e1e49a0c6fd" alt=3D"" class=3D"gliffy=
+124-4710" src=3D"26271a1862e0148fe6674e1e49a0c6fd" alt=3D"" class=3D"gliffy=
 -macro-image" width=3D"468" height=3D"208"> </td>=20
 </tr>=20
 </tbody>
@@ -385,8 +385,8 @@ t;</pre>
 ing function compostion.</p>
 <p><br></p>
 <p><br></p>
-<p> <map id=3D"gliffy-map-35160122-1501" name=3D"gliffy-map-35160122-1501">=
-</map> </p>
+<p> <map id=3D"gliffy-map-35160122-684" name=3D"gliffy-map-35160122-684"></=
+map> </p>
 <table width=3D"100%" class=3D"gliffy-macro-table">=20
 <tbody>
 <tr>=20
@@ -397,8 +397,8 @@ ing function compostion.</p>
 <tbody>
 <tr>=20
 <td> <img style=3D"border: none; width: 1063px;" usemap=3D"#gliffy-map-3516=
-0122-1501" src=3D"9a5e10cea96d646fc85e18575c948648" alt=3D"" class=3D"gliff=
-y-macro-image" width=3D"468" height=3D"217"> </td>=20
+0122-684" src=3D"9a5e10cea96d646fc85e18575c948648" alt=3D"" class=3D"gliffy=
+-macro-image" width=3D"468" height=3D"217"> </td>=20
 </tr>=20
 </tbody>
 </table> </td>=20
@@ -427,10 +427,37 @@ finity++infinity<br>Prelude&gt;</pre>
 <p>In this example, endless loops&nbsp;are not evluated to be counted, bett=
 er to be lazy with infinity...</p>
 <p><br></p>
-<h3 id=3D"FeelandSeeHaskellBasics-InHaskell,FunctorsareMonads">In Haskell, =
-Functors are&nbsp;<a href=3D"http://www.leonardmeyer.com/blog/2014/06/funct=
-ors-applicatives-et-monads-en-images/" class=3D"external-link" rel=3D"nofol=
-low">Monads</a></h3>
+<h3 id=3D"FeelandSeeHaskellBasics-InHaskell,mostFunctorsarealsoMonads">In H=
+askell, most Functors are also&nbsp;<a href=3D"http://www.leonardmeyer.com/=
+blog/2014/06/functors-applicatives-et-monads-en-images/" class=3D"external-=
+link" rel=3D"nofollow">Monads</a></h3>
+<pre>Prelude&gt; :info []<br>data [] a =3D [] | a : [a] -- Defined in =E2=
+=80=98GHC.Types=E2=80=99<br>instance Applicative [] -- Defined in =E2=80=98=
+GHC.Base=E2=80=99<br>instance Eq a =3D&gt; Eq [a] -- Defined in =E2=80=98GH=
+C.Classes=E2=80=99<br>instance Functor [] -- Defined in =E2=80=98GHC.Base=
+=E2=80=99<br>instance Monad [] -- Defined in =E2=80=98GHC.Base=E2=80=99<br>=
+instance Monoid [a] -- Defined in =E2=80=98GHC.Base=E2=80=99<br>instance Or=
+d a =3D&gt; Ord [a] -- Defined in =E2=80=98GHC.Classes=E2=80=99<br>instance=
+ Show a =3D&gt; Show [a] -- Defined in =E2=80=98GHC.Show=E2=80=99<br>instan=
+ce Read a =3D&gt; Read [a] -- Defined in =E2=80=98GHC.Read=E2=80=99<br>inst=
+ance Foldable [] -- Defined in =E2=80=98Data.Foldable=E2=80=99<br>instance =
+Traversable [] -- Defined in =E2=80=98Data.Traversable=E2=80=99<br>Prelude&=
+gt; :info Maybe<br>data Maybe a =3D Nothing | Just a -- Defined in =E2=80=
+=98GHC.Base=E2=80=99<br>instance Applicative Maybe -- Defined in =E2=80=98G=
+HC.Base=E2=80=99<br>instance Eq a =3D&gt; Eq (Maybe a) -- Defined in =E2=80=
+=98GHC.Base=E2=80=99<br>instance Functor Maybe -- Defined in =E2=80=98GHC.B=
+ase=E2=80=99<br>instance Monad Maybe -- Defined in =E2=80=98GHC.Base=E2=80=
+=99<br>instance Monoid a =3D&gt; Monoid (Maybe a) -- Defined in =E2=80=98GH=
+C.Base=E2=80=99<br>instance Ord a =3D&gt; Ord (Maybe a) -- Defined in =E2=
+=80=98GHC.Base=E2=80=99</pre>
+<pre>instance Show a =3D&gt; Show (Maybe a) -- Defined in =E2=80=98GHC.Show=
+=E2=80=99<br>instance Read a =3D&gt; Read (Maybe a) -- Defined in =E2=80=98=
+GHC.Read=E2=80=99<br>instance Foldable Maybe -- Defined in =E2=80=98Data.Fo=
+ldable=E2=80=99<br>instance Traversable Maybe -- Defined in =E2=80=98Data.T=
+raversable=E2=80=99<br>Prelude&gt;</pre>
+<pre>[] is a Functor and a Monad</pre>
+<p>Maybe is a Functor and a Monad</p>
+<p><br></p>
 <pre>Prelude&gt; let uplift =3D return;<br>Prelude&gt; let f :: Int -&gt; [=
 Int];f =3D (uplift . (*2));<br>Prelude&gt; let g :: Int -&gt; [Int];g =3D (=
 uplift . (+1))<br>Prelude&gt; [3] &gt;&gt;=3D f &gt;&gt;=3D g<br>[7]<br>Pre=
@@ -446,7 +473,7 @@ Monad&gt;</pre>
 <p>Functions to be done in the context can be composed.</p>
 <p><br></p>
 <p><br></p>
-<p> <map id=3D"gliffy-map-35160120-1590" name=3D"gliffy-map-35160120-1590">=
+<p> <map id=3D"gliffy-map-35160120-4417" name=3D"gliffy-map-35160120-4417">=
 </map> </p>
 <table width=3D"100%" class=3D"gliffy-macro-table">=20
 <tbody>
@@ -458,7 +485,7 @@ Monad&gt;</pre>
 <tbody>
 <tr>=20
 <td> <img style=3D"border: none; width: 893px;" usemap=3D"#gliffy-map-35160=
-120-1590" src=3D"3ef0075981837ebc88fa342ca81dedd1" alt=3D"" class=3D"gliffy=
+120-4417" src=3D"3ef0075981837ebc88fa342ca81dedd1" alt=3D"" class=3D"gliffy=
 -macro-image" width=3D"468" height=3D"345"> </td>=20
 </tr>=20
 </tbody>
@@ -485,8 +512,8 @@ br>Prelude Control.Monad&gt;</pre>
 </p>
 <p><br></p>
 <p><br></p>
-<p> <map id=3D"gliffy-map-35160117-9413" name=3D"gliffy-map-35160117-9413">=
-</map> </p>
+<p> <map id=3D"gliffy-map-35160117-417" name=3D"gliffy-map-35160117-417"></=
+map> </p>
 <table width=3D"100%" class=3D"gliffy-macro-table">=20
 <tbody>
 <tr>=20
@@ -497,8 +524,8 @@ br>Prelude Control.Monad&gt;</pre>
 <tbody>
 <tr>=20
 <td> <img style=3D"border: none; width: 928px;" usemap=3D"#gliffy-map-35160=
-117-9413" src=3D"654295d83fd1c58a49e6e22cc0054dc4" alt=3D"" class=3D"gliffy=
--macro-image" width=3D"468" height=3D"324"> </td>=20
+117-417" src=3D"654295d83fd1c58a49e6e22cc0054dc4" alt=3D"" class=3D"gliffy-=
+macro-image" width=3D"468" height=3D"324"> </td>=20
 </tr>=20
 </tbody>
 </table> </td>=20
@@ -513,8 +540,8 @@ n: divide by zero<br>Prelude System.Environment Control.Monad&gt;</pre>
 <pre>Prelude System.Environment Control.Monad&gt; (uplift.(`div` 0) &gt;=3D=
 &gt; (uplift.(+1))) 6 ::Maybe Int<br>Just *** Exception: divide by zero<br>=
 Prelude System.Environment Control.Monad&gt;</pre>
-<p> <map id=3D"gliffy-map-35160116-614" name=3D"gliffy-map-35160116-614"></=
-map> </p>
+<p> <map id=3D"gliffy-map-35160116-9077" name=3D"gliffy-map-35160116-9077">=
+</map> </p>
 <table width=3D"100%" class=3D"gliffy-macro-table">=20
 <tbody>
 <tr>=20
@@ -525,8 +552,8 @@ map> </p>
 <tbody>
 <tr>=20
 <td> <img style=3D"border: none; width: 1098px;" usemap=3D"#gliffy-map-3516=
-0116-614" src=3D"f3e4dac59b1ad1db3380c67219d5c05e" alt=3D"" class=3D"gliffy=
--macro-image" width=3D"468" height=3D"245"> </td>=20
+0116-9077" src=3D"f3e4dac59b1ad1db3380c67219d5c05e" alt=3D"" class=3D"gliff=
+y-macro-image" width=3D"468" height=3D"245"> </td>=20
 </tr>=20
 </tbody>
 </table> </td>=20
@@ -647,7 +674,7 @@ nofollow">Category Theory</a>.</strong></p>
     </div>
 </body>
 </html>
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: file:///C:/9a5e10cea96d646fc85e18575c948648
@@ -1365,7 +1392,7 @@ AQQQQAABBBBAAAEEEHBUgHDCUX4OjgACCCCAAAIIIIAAAggggAAChBNcAwgggAACCCCAAAIIIIAA
 Aggg4KgA4YSj/BwcAQQQQAABBBBAAAEEEEAAAQQIJ7gGEEAAAQQQQAABBBBAAAEEEEDAUQHCCUf5
 OTgCCCCAAAIIIIAAAggggAACCBBOcA0ggAACCCCAAAIIIIAAAggggICjAoQTjvJzcAQQQAABBBBA
 AAEEEEAAAQQQ+H/SpQa5hNzZPwAAAABJRU5ErkJggg==
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: file:///C:/f3e4dac59b1ad1db3380c67219d5c05e
@@ -2333,7 +2360,7 @@ MSghIiIiIiIiIrqNQQkRERERERER0W0MSoiIiIiIiIiIbmNQQkRERERERER0G4MSIiIiIiIiIqLb
 GJQQEREREREREd3GoISIiIiIiIiI6DYGJUREREREREREtzEoISIiIiIiIiK6jUEJEREREREREdFt
 DEqIiIiIiIiIiG5jUEJEREREREREdBuDEiIiIiIiIiKi2xiUEBERERERERHdxqCEiIiIiIiIiOg2
 BiVERERERERERLf9D5SvlnUl7NX9AAAAAElFTkSuQmCC
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: file:///C:/26271a1862e0148fe6674e1e49a0c6fd
@@ -2546,7 +2573,7 @@ mpvKIoAAAggggIAPAgQwH1qBMiCAAAIIIIBAogQIYIlqbiqLAAIIIIAAAj4IEMB8aAXKgAACCCCA
 AAKJEiCAJaq5qSwCCCCAAAII+CBAAPOhFSgDAggggAACCCRKgACWqOamsggggAACCCDggwABzIdW
 oAwIIIAAAgggkCgBAliimpvKIoAAAggggIAPAgQwH1qBMiCAAAIIIIBAogT+F/HrjYf67cs6AAAA
 AElFTkSuQmCC
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: file:///C:/3ef0075981837ebc88fa342ca81dedd1
@@ -4035,7 +4062,7 @@ ERABERABiT69AyIgAiIgAiIgAiIgAiIgAiKQYwISfTkeXD2aCIiACIiACIiACIiACIiACEj06R0Q
 AREQAREQAREQAREQAREQgRwTkOjL8eDq0URABERABERABERABERABERAok/vgAiIgAiIgAiIgAiI
 gAiIgAjkmIBEX44HV48mAiIgAiIgAiIgAiIgAiIgAhJ9egdEQAREQAREQAREQAREQAREIMcEJPpy
 PLh6NBEQAREQAREQAREQAREQARH4/4viABxGiLSAAAAAAElFTkSuQmCC
-------=_Part_133_1783604089.1545138283734
+------=_Part_238_1547649351.1545219901600
 Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Location: file:///C:/654295d83fd1c58a49e6e22cc0054dc4
@@ -5148,4 +5175,4 @@ IIAAAggggAACCCCAgIsCBFAXW4UyIYAAAggggAACCCCAAAIeChBAPWxUqoQAAggggAACCCCAAAII
 uChAAHWxVSgTAggggAACCCCAAAIIIOChAAHUw0alSggggAACCCCAAAIIIICAiwIEUBdbhTIhgAAC
 CCCAAAIIIIAAAh4KEEA9bFSqhAACCCCAAAIIIIAAAgi4KEAAdbFVKBMCCCCAAAIIIIAAAggg4KHA
 fzTtgzIkxkWBAAAAAElFTkSuQmCC
-------=_Part_133_1783604089.1545138283734--
+------=_Part_238_1547649351.1545219901600--
